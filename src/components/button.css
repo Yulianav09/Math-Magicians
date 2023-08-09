@@ -1,0 +1,13 @@
+.Button {
+  padding: 20px 30px;
+  border: none;
+}
+
+.Button:nth-child(4n+1),
+.Button:last-child {
+  background-color: #ff8732;
+}
+
+.Button:nth-child(18) {
+  grid-column: 1/ span 2;
+}

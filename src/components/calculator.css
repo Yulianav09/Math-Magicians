@@ -1,0 +1,17 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: gainsboro;
+  gap: 2px;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.result {
+  grid-column: 1/span 4;
+  padding: 20px 5px;
+  background-color: gray;
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
