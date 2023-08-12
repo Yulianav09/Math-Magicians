@@ -15,3 +15,23 @@
   font-size: 25px;
   text-align: right;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.quoteContainer {
+  margin: 30px auto;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-top: 15px;
+}
